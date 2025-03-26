@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 int main() {
     
@@ -157,7 +156,6 @@ int main() {
         if(opcao != 0) {
             printf("\nContinuar? (s/n): ");
             scanf(" %c", &continuar);
-            continuar = tolower(continuar);
             
             if(continuar == 's') {
                 main(); 
