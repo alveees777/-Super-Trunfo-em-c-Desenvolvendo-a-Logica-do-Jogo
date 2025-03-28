@@ -6,36 +6,37 @@ Super Trunfo de Cidades é um jogo de cartas digital onde você cadastra duas ci
 
 -Como Jogar
 
-Pré-requisitos
-Compilador GCC instalado
-Terminal/linha de comando
-
--Compilação
-Salve o código em um arquivo chamado super_trunfo.c
-Abra o terminal na pasta do arquivo
-
-Compile com: 
-gcc super_trunfo.c -o super_trunfo
-
-./super_trunfo  # Linux/macOS
-super_trunfo.exe  # Windows
+      Pré-requisitos
+      IDE
+      Compilador GCC instalado
+      Terminal/linha de comando
 
 
+      Baixe o arquivo e execute em uma IDE com as extensoões nescessarias da linguagem C ou pelo terminal de comando com o GCC instalado.
+       
 Cadastro das Cartas:
-Você cadastrará duas cidades com seus atributos, Cada cidade pertence a um estado brasileiro, O código da cidade deve seguir o padrão (primeira letra do estado + 01-04)
+
+    Você cadastrará duas cidades com seus atributos. 
+    Cada cidade pertence a um estado brasileiro.
+    O código da cidade deve seguir o padrão (primeira letra do estado + 01-04)
+    
 
 Atributos das Cartas:
 
-População
-Área territorial (km²)
-PIB
-Pontos turísticos
-Densidade populacional (calculada automaticamente)
-PIB per capita (calculado automaticamente)
-Super Poder (pontuação composta calculada automaticamente)
+    População
+    Área territorial (km²)
+    PIB
+    Pontos turísticos
+    Densidade populacional (calculada automaticamente)
+    PIB per capita (calculado automaticamente)
+    Super Poder (pontuação composta calculada automaticamente)
 
 Modo de Jogo:
-Após cadastrar as cidades, escolha um atributo para comparar. A cidade com melhor desempenho no atributo escolhido vence. Para densidade, vence a cidade com menor valor. Para Super Poder, vence a cidade com maior pontuação composta
+
+    Após cadastrar as cidades, escolha um atributo para comparar. 
+    A cidade com melhor desempenho no atributo escolhido vence. 
+    Para densidade, vence a cidade com menor valor. 
+    Para Super Poder, vence a cidade com maior pontuação composta
 
               === MENU ===
       1-Populacao       2-Area          3-PIB
