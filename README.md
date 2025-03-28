@@ -1,3 +1,6 @@
+Os arquivos estão numerados de 1 a 3, pois cada arquivo representa uma atualização subsequente do código.
+
+
 Sobre o Jogo
 Super Trunfo de Cidades é um jogo de cartas digital onde você cadastra duas cidades e compara seus atributos para determinar qual é a "vencedora" 
 
